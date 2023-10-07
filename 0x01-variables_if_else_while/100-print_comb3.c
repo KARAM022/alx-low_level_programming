@@ -6,15 +6,22 @@
  */
 
 int main() {
-	for (int i = 0; i < 10; i++) {
-		for (int j = i + 1; j < 10; j++) {
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i != 8 || j != 9) {
+	int fd = 48;
+	int sd;
+
+	while (fd < 58)
+	{
+		sd = fd + 1;
+		while (sd < 58) {
+			putchar(fd);
+			putchar(sd);
+			if (fd != 57 || sd != 58) {
 				putchar(',');
 				putchar(' ');
 			}
+			sd++;
 		}
+		fd++;
 	}
 	putchar('\n');
 	return 0;
