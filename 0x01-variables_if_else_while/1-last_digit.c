@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n;
-	int ld;
+	/*int ld;*/
 	int nld;
 
 	srand(time(0));
