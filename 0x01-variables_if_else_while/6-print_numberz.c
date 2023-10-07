@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(void)
 {
-    int d = 0;
-    while (d < 10)
+    int d = 48;
+    while (d < 58)
     {
         putchar(d);
         d++;
