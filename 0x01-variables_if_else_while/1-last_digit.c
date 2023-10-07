@@ -12,15 +12,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ld = n % 10;
-	if (ld < 0)
+	nld = n % 10;
+	/*if (ld < 0)
 	{
 		nld = -ld;
 	}
 	else
 	{
 		nld = ld;
-	}
+	}*/
 	
 	if (nld > 5)
 	{
