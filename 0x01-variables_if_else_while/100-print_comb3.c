@@ -5,7 +5,8 @@
  * Return: Always 0 (Success)
  */
 
-int main() {
+int main(void) 
+{
 	int fd = 48;
 	int sd;
 
@@ -15,7 +16,7 @@ int main() {
 		while (sd < 58) {
 			putchar(fd);
 			putchar(sd);
-			if (fd != 57 || sd != 58) {
+			if (fd != 56 || sd != 57) {
 				putchar(',');
 				putchar(' ');
 			}
