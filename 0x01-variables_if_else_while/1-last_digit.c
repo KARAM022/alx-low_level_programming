@@ -37,7 +37,6 @@ int main(void)
 	
 	
 	
-	// Last digit of 629438752 is 2 and is less than 6 and not 0
 	/* your code goes there */
 	return (0);
 }
