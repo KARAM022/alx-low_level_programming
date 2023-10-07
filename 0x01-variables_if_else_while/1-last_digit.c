@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - DEtermines hhh
+ * main - Determines hhh
  * 
  * Return: Always 0 (Success)
  * /
