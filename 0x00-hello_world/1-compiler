@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -c $CFILE -o 'echo $CFILE | cut -d. -fl'.o
+FN=$(basename -- "$CFILE")
+FNN="${FN%.*}"
+gcc -c "$CFILE" -o "${FNN}.o"
