@@ -1,4 +1,2 @@
 #!/bin/bash
-FN=$(basename -- "$CFILE")
-FNN="${FN%.*}"
-gcc -c "$CFILE" -o "${FNN}.o"
+gcc -c "$CFILE" -o "${CFILE%.*}.o"
