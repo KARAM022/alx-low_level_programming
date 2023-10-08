@@ -1,28 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <unistd.h>
 
-/* betty style doc for function main goes there */
+/**
+ *main - hhhh
+ *Return: 1
+ */
+
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-    if (n > 0)
-    {
-        printf("%d is positive\n", n);
-    }
-    else if (n < 0)
-    {
-        printf("%d is negative", n);
-    }
-    else
-    {
-        printf("%d is zero", n);
-    }
-    
-	return (0);
+	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	write(1,a,59);
+	return (1);
 }
