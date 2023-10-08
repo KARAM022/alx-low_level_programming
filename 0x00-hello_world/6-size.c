@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - hhh
+ * main - hhhhhh
  *
  * Return: 0
  */
