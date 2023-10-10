@@ -8,7 +8,7 @@ int main(void)
     char charlist[] = "_putchar\n";
     int i;
 
-    for (i = 0; i < 8; i++)
+    for (i = 0; i < 9; i++)
     {
         _putchar(charlist[i]);
     }
