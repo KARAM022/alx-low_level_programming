@@ -3,7 +3,7 @@
 
 /**
  * print_sign - hhhh
- * @c: hhhh
+ * @n: hhhh
  * Return: 1 or 0
 */
 
