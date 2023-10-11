@@ -4,11 +4,13 @@
 /**
  * print_last_digit - hhh
  * @n: hh
+ * @b: hh
  * Return: Void
 */
 
 int print_last_digit(int n)
 {
-	_putchar(n % 10);
+    int b = n % 10;
+	_putchar(b);
 	return (0);
 }
