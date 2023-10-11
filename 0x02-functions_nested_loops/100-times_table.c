@@ -26,7 +26,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(k + '0');
-			} else if (k >= 10)
+			} else if (k >= 10 && k < 99)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -38,17 +38,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				_putchar((k / 100) + '0');
-				_putchar(((k - ((k / 100) * 100)) / 10) + '0');
-				_putchar(((k - ((k / 100) * 100)) % 10) + '0');
-                /**
-                 * 250 
-                 * 250 / 100 = 2;5 "1"
-                 *  250 -(2 * 100) = 50 
-                 * _____
-                 *  187 / 100 = 1.87 
-                 * 187 - (1*100)=  87  
-                */
-				_putchar((k / 10) + '0');
+				_putchar(((k / 10) % 10) + '0');
 				_putchar((k % 10) + '0');
 			} 
 		}
