@@ -1,24 +1,25 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * print_rev - hh
- * @s: ff
- * Return: nothing
-*/
-
+ * print_rev - jjj
+ * @s: jjj
+ * return: 0
+ */
 void print_rev(char *s)
 {
+	int longi = 0;
+	int i;
 
-    int len;
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (i = longi; i > 0; i--)
+	{
+		_putchar(*s);
+		s--;
+	}
 
-	for (len = 0; *s != '\0'; s++)
-	{
-		len++;
-	}
-	while (len--)
-	{
-		_putchar(s[len]);
-	}
-	putchar('\n');
+	_putchar('\n');
 }
