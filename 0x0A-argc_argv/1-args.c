@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * main - khkhkh
+ * @argc: khhkh
+ * @argv: kkfkf
+ * Return: 0
+*/
+
+int main(int argc, char **argv)
+{
+	(void)argv;
+	printf("%d\n", argc);
+	return (0);
+}
