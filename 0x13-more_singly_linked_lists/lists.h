@@ -1,7 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - khkhkhkhhk
@@ -10,6 +11,7 @@
  *
  * Description: khkhkhkhhk
  */
+
 typedef struct listint_s
 {
 	int n;
